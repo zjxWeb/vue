@@ -14,7 +14,5 @@ import app from './App.vue'
 
 var vm = new Vue({
     el:'#app',
-    render:(c)=>{
-      return c(app)
-    },
+    render:(c)=>c(app),
 })
