@@ -3,11 +3,12 @@
     
     <!-- 顶部 header 区域 -->
     <mt-header fixed title="首页"></mt-header>
-
+		
     <!-- 中间的 路由 router-view  区域 -->
 
 
     <!-- 底部 tabbar 区域 -->
+		<router-view></router-view>
     <nav class="mui-bar mui-bar-tab">
 			<router-link class="mui-tab-item" to="/home">
 				<span class="mui-icon mui-icon-home"></span>
@@ -26,7 +27,6 @@
 				<span class="mui-tab-label">搜素</span>
 			</router-link>
 		</nav>
-    <h1>123</h1>
   </div>
 </template>
 
